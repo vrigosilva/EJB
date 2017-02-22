@@ -9,7 +9,7 @@ import java.util.List;
 public class TestaEscritaDeObjetos {
 
 	public static void main(String[] args) throws IOException {
-
+		//---\\
 		//pattern DECORATOR (FileOutputStream muda o comportamento de ObjectOutputStream)
 		ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(
 				"itens.txt"));
